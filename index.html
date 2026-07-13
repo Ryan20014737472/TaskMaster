@@ -11,18 +11,48 @@
 
 <body>
 
-    <header>
-        <h1>🌊 TaskMaster</h1>
-        <p>Organize sua rotina</p>
-    </header>
+<div class="bubbles">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+</div>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <h2>🌊 TaskMaster</h2>
+
+        <nav>
+
+            <a href="#" class="ativo">🏠 Início</a>
+            <a href="#">✅ Tarefas</a>
+            <a href="#">📅 Calendário</a>
+            <a href="#">🎯 Metas</a>
+            <a href="#">📊 Estatísticas</a>
+            <a href="#">⚙️ Configurações</a>
+
+        </nav>
+
+    </aside>
 
     <main>
+
+        <header>
+
+            <h1>Bem-vindo!</h1>
+            <p>Organize seu dia e mergulhe na produtividade.</p>
+
+        </header>
 
         <section class="adicionar-tarefa">
 
             <h2>Nova Tarefa</h2>
 
-            <input type="text" id="tarefa" placeholder="Digite sua tarefa...">
+            <input
+                type="text"
+                id="tarefa"
+                placeholder="Digite sua tarefa..."
+            >
 
             <button id="btnAdicionar">
                 Adicionar
@@ -34,28 +64,15 @@
 
             <h2>Minhas Tarefas</h2>
 
-            <ul id="listaTarefas">
-
-            </ul>
+            <ul id="listaTarefas"></ul>
 
         </section>
 
     </main>
 
-   <div class="bubbles">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-   </div> 
-    
-    <script src="script.js"></script>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 
