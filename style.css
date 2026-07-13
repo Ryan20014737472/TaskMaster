@@ -183,3 +183,28 @@ button:hover{
 main{
     flex:1;
 }
+#listaTarefas li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#listaTarefas div{
+    display:flex;
+    gap:10px;
+}
+
+.concluir{
+    width:45px;
+    background:#28a745;
+}
+
+.excluir{
+    width:45px;
+    background:#dc3545;
+}
+
+.concluida span{
+    text-decoration:line-through;
+    opacity:.6;
+}
